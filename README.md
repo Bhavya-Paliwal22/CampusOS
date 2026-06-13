@@ -1,113 +1,79 @@
-# 📚 StudyNotion – Full-Stack Ed-Tech Platform
+# 🎓 CampusFlow - Smart College Management System
 
-**StudyNotion** is a fully functional ed-tech platform that enables users to create, consume, and rate educational content.  
-Built using the **MERN stack**, the platform focuses on accessibility, interactive learning, and smooth user experience for both students and instructors.
+CampusFlow is a modern College ERP platform designed to automate and streamline academic and administrative operations within educational institutions.
+
+The platform provides role-based access for Students, Faculty, HODs, and Administrators, enabling efficient management of attendance, courses, examinations, results, timetables, notifications, and academic records through a centralized system.
+
+Built using the MERN Stack, CampusFlow focuses on scalability, security, automation, and user experience.
 
 ---
 
 ## ✨ Features
 
-### 👩‍🎓 For Students
-- Browse and view all available courses  
-- Course wishlist  
-- Full course playback pages  
-- Checkout & secure payment flow (Razorpay)  
-- User profile management  
+### 👨‍🎓 Student Portal
+- Student profile management
+- Attendance tracking
+- Course enrollment
+- Results and academic records
+- Notifications and announcements
 
-### 🧑‍🏫 For Instructors
-- Dashboard with insights  
-- Course creation & content management  
-- Edit profile & view analytics  
+### 👨‍🏫 Faculty Portal
+- Attendance management
+- Student performance monitoring
+- Course and subject management
+- Assignment management
+- Examination support
 
-### 🛠️ Admin (Future Scope)
-- Platform overview dashboard  
-- Instructor management  
-- User and course insights  
+### 🏛️ Admin Portal
+- Student admission management
+- Faculty management
+- Department management
+- Timetable generation
+- Examination and result management
+- Academic record maintenance
 
----
-
-## 🏗️ System Architecture
-
-StudyNotion follows a **client–server architecture** with:
-
-- **Frontend:** React.js + Tailwind CSS  
-- **Backend:** Node.js, Express.js  
-- **Database:** MongoDB  
-- **Cloud Services:** Cloudinary for media, Razorpay for payments  
-
----
-
-## 🎨 Front-End Overview
-
-Built using:
-- **React.js**
-- **Tailwind CSS**
-- **Redux** for state management  
-- **REST APIs** for all data communication  
-- Designed using **Figma** (UI/UX planning)  
-
-Frontend pages include:
-- Homepage  
-- Course List  
-- Course Details  
-- Wishlist  
-- Checkout  
-- Course Playback  
-- User Details & Edit Profile  
-- Instructor Dashboard & Course Management  
+### 🤖 Smart Automation
+- Automatic student promotion
+- Faculty allocation
+- Academic workflow automation
+- Real-time notifications
 
 ---
 
-## 🔧 Back-End Overview
+## 🛠️ Tech Stack
 
-Backend built using:
-- **Node.js**
-- **Express.js**
-- **MongoDB + Mongoose**
-- **JWT Authentication**
-- **Bcrypt for password hashing**
+### Frontend
+- React.js
+- Tailwind CSS
+- JavaScript
 
-Key Backend Features:
-- User Authentication (Login, Signup, OTP Verification)
-- Course CRUD (Create, Read, Update, Delete)
-- Rating & Review System
-- Payment Integration (Razorpay)
-- Cloud-based media management (Cloudinary)
+### Backend
+- Node.js
+- Express.js
 
----
+### Database
+- MongoDB
 
-## 🛣️ API Endpoints (Examples)
-
-- `POST /api/auth/signup` – Create new user  
-- `POST /api/auth/login` – Login & JWT generation  
-- `GET /api/courses` – Get all courses  
-- `POST /api/courses` – Create new course  
-- `PUT /api/courses/:id` – Update a course  
-- `DELETE /api/courses/:id` – Delete course  
+### Authentication & Security
+- JWT Authentication
+- Role-Based Access Control (RBAC)
 
 ---
 
-## 🚀 Deployment
+## 🎯 Vision
 
-StudyNotion uses:
-
-- **Vercel** → Frontend deployment  
-- **Render / Railway** → Backend hosting  
-- **MongoDB Atlas** → Cloud database  
-- **Cloudinary** → Media storage  
+To build a centralized digital ecosystem that reduces manual administrative work and improves operational efficiency for students, faculty, and administrators while supporting future AI-powered analytics and automation.
 
 ---
 
-## 🔮 Future Enhancements
+## 🚀 Future Enhancements
 
-- Personalized learning paths  
-- Gamification (badges, progress XP)  
-- Social learning features  
-- Mobile App (Android + iOS)  
-- ML-based course recommendations  
-- VR/AR learning modules  
-
----
+- AI-powered student performance analytics
+- Smart timetable generation
+- Placement management system
+- Fee management module
+- Parent portal
+- Mobile application support
 
 ## 👩‍💻 Author
 
