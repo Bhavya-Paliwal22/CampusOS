@@ -75,10 +75,4 @@ To build a centralized digital ecosystem that reduces manual administrative work
 - Parent portal
 - Mobile application support
 
-## 👩‍💻 Author
 
-**Bhavya Paliwal**  
-B.Tech AI & DS | Aspiring Software Engineer  
-
-🔗 GitHub: https://github.com/Bhavya-Paliwal22  
-🔗 LinkedIn: https://www.linkedin.com/in/bhavya-paliwal-13a897354/
